@@ -1,0 +1,299 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.contenedor {
+  padding: 0px;
+  margin: 0px;
+  width: 98%;
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+      grid-template-areas: "header" "producto1 producto2 producto3" "producto4 producto5 producto6" "footer footer footer";
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor ul {
+  list-style: none;
+  padding: 5px;
+  background-color: #5f6de9;
+  font: size 0;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contenedor li {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.contenedor li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 20px;
+}
+
+.contenedor li:hover {
+  color: #fcfcfc;
+  font-weight: bold;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+main {
+  margin-top: 10%;
+}
+
+.gallery-container {
+  margin-left: 90px;
+  margin-right: 25px;
+  position: relative;
+  display: inline-block;
+}
+
+.productos {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  vertical-align: small;
+  display: inline-block;
+}
+
+.producto1 {
+  position: relative;
+  vertical-align: small;
+  display: inline-block;
+}
+
+.producto2 {
+  position: relative;
+  vertical-align: small;
+  display: inline-block;
+}
+
+.producto3 {
+  position: relative;
+  vertical-align: small;
+  display: inline-block;
+}
+
+.producto4 {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.producto5 {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.producto6 {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.product-block__brand {
+  color: grey;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-size: 17px;
+  margin-bottom: 0px;
+  padding-left: 0%;
+  margin-top: -9%;
+  text-align: center;
+}
+
+.product-block__name {
+  font-size: 1.1rem;
+  color: #424242;
+  font-weight: lighter;
+  line-height: 1.5;
+  margin: 0 0 0.25rem;
+  z-index: 1;
+  position: relative;
+  text-align: left;
+  padding-left: 37%;
+}
+
+.product-block__price {
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  font-size: 1.65rem;
+  color: grey;
+  font-weight: 600;
+  line-height: 1;
+  text-align: left;
+  margin-bottom: 0.875rem;
+}
+
+.product-block__sku {
+  color: grey;
+  text-decoration: none;
+  font-style: italic;
+  display: block;
+  margin-top: -32px;
+  font-size: 14px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.button {
+  max-width: 85%;
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1rem;
+  padding: 0.85em 1em;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-size: .9rem;
+  line-height: 1;
+  text-align: center;
+  color: #fefefe;
+  border: blue;
+}
+
+.button.bordered {
+  border-width: 2px;
+  border-style: solid;
+  background: transparent;
+}
+
+.button.circular {
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
+  border-radius: 9999px;
+}
+
+.button.small {
+  padding-top: 0.8rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+element.style {
+  float: left;
+  margin-left: 20%;
+}
+
+.button.blue.bordered {
+  border-color: #617ce8 !important;
+}
+
+.button.blue.bordered {
+  color: #024964;
+  border-color: #024964;
+  background: transparent;
+}
+
+.button.blue {
+  /* color: rgba(255, 255, 255, .75); */
+  color: #FFFFFF;
+  background: #6b8dde;
+}
+
+.button.circular {
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
+  border-radius: 9999px;
+}
+
+.button.bordered {
+  border-width: 2px;
+  border-style: solid;
+  background: transparent;
+}
+
+.button.small {
+  padding-top: 0.8rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.button.small {
+  font-size: .75rem;
+}
+
+span {
+  color: #989898;
+  font-size: 14px;
+}
+
+footer {
+  padding-right: 0ch;
+  padding-left: 0ch;
+  width: 100%;
+  background-color: #5f6de9;
+  color: white;
+  text-align: center;
+  padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer:hover {
+  height: auto;
+  width: auto;
+  padding: 20px;
+  background-color: cyan;
+}
+
+@media (min-widht: 768px) {
+  .contenedor {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: white;
+        grid-template-areas: "header" "productos" "footer";
+    justify-content: center;
+  }
+}
+/*# sourceMappingURL=estiloproductos.css.map */

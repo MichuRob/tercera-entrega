@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.contenedor{
+    padding: 20px;
+    margin: 10px;
+    width: 98%;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: 
+    "header";
+    justify-content: center;
+
+    ul{
+        list-style: none;
+        padding: 5px;
+        background-color:rgb(95, 109, 233);
+        font: size 0;
+        text-align: center;
+        display: flex;  flex-direction: row; 
+        justify-content: space-around;
+    } 
+
+    li{
+        color: white;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        text-decoration:none;
+        padding: 20px;
+    }
+    li a{
+        text-decoration: none;
+        color: white;    
+        display: inline-block;
+        padding: 20px;
+    }
+    li:hover{
+        color: rgb(252, 252, 252);
+        font-weight: bold;
+    }
+}
+.contenedor{
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: 
+    "header header header"
+    "nombre apellido apellido"
+    "ciudad comuna comuna"
+    "escribenos escribenos"
+    "footer footer footer";
+    justify-content:flex;
+}
+
+.footer{
+    left: 0;
+    width: 100%;
+    background-color:rgb(95, 109, 233) ;
+    color: white;
+    text-align: center;
+    padding: 0%;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    height: fit-content;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.footer:hover {
+    height: auto;
+    width: auto;
+    padding: 20px;
+    background-color: cyan;
+}
+

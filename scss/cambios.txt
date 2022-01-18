@@ -1,0 +1,6 @@
+-al 18 de Enero se han realizado cambios al estilo de la página y a la distribución de esta.
+Se añadieron distintos estilos a cada html con la posibilidad de un boton de compra
+se le añadieron imagenes
+se linkearon textos y páginas
+se añadió bootstrap
+Se modificaron meta description y meta title
